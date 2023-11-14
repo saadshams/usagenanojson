@@ -1,0 +1,9 @@
+{
+  "name" : "usagenanojson",
+  "version-string" : "1.0.0",
+  "description" : "C/C++",
+  "homepage" : "",
+  "license": "MIT",
+  "maintainers" : [ "Saad Shams" ],
+  "dependencies" : [ "nanojson" ]
+}
