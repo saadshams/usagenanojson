@@ -2,9 +2,8 @@
 How to use nanojson
 
 
-Set Environment Variable for local vcpkg installation
+## Local vcpkg installation
 
 ```commandLine
-VCPKG_ROOT=/path/to/vcpkg
-
+export VCKPG_ROOT=/path/to/vcpkg
 ```

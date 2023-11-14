@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/nanojson-x64-osx-1.0.0-23fb40f2-dca5-4c30-8225-f02430625ee3",
+  "name": "nanojson:x64-osx@1.0.0 bf1f3c1c4af00036ef26625dfbaf02fb20aa6d4950e215768420480ea9a084a5",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2023.10.18"
+    ],
+    "created": "2023-11-09T20:40:56Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "nanojson",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://github.com/saadshams/nanojson",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Event-Driven JSON Parser for C/C++",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "nanojson:x64-osx",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "bf1f3c1c4af00036ef26625dfbaf02fb20aa6d4950e215768420480ea9a084a5",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "saadshams/nanojson",
+      "downloadLocation": "git+https://github.com/saadshams/nanojson@1.0.0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "beb1017eb5242f98d49d39421da92dce6ca4f93d831223070ba48fd69375a6289b281226f14a148945c431b825dbb71c08fc0c288570dcdaa547af3531864d54"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//Users/saad/Documents/vcpkg/ports/nanojson/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ea776a2d0d2169c4874bee2855abee4ecae31e26c4386a947925a596642d2172"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//Users/saad/Documents/vcpkg/ports/nanojson/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "014aab1e4be29cf20ec7797297cdcd7f2cdc9bcc7545635b6230ee0baa534491"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

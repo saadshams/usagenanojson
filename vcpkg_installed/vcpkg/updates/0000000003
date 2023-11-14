@@ -1,0 +1,9 @@
+Package: nanojson
+Version: 1.0.0
+Depends: vcpkg-cmake
+Architecture: x64-osx
+Multi-Arch: same
+Maintainer: Saad Shams
+Abi: bf1f3c1c4af00036ef26625dfbaf02fb20aa6d4950e215768420480ea9a084a5
+Description: Event-Driven JSON Parser for C/C++
+Status: install ok installed
